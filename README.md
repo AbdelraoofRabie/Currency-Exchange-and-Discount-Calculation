@@ -1,5 +1,25 @@
 # Currency Exchange and Discount Calculation API
 
+## Project Overview:
+- A Spring Boot REST API that calculates discounted bill amounts with currency conversion
+- Implements all required features including:
+  * User type-based discounts (Employee 30%, Affiliate 10%, Loyal Customer 5%)
+  * Bill amount-based discounts ($5 per $100)
+  * Real-time currency conversion
+  * Input validation and error handling
+  * Authentication and rate limiting
+  * Comprehensive test coverage
+
+Key Technical Highlights:
+1. Clean Architecture with separation of concerns
+2. Comprehensive test suite including unit, and integration tests
+3. Input validation using Jakarta Bean Validation
+4. Exception handling with custom exceptions
+5. Rate limiting using Resilience4j
+6. Caching for currency exchange rates
+7. Logging using SLF4J
+8. Code quality checks (SpotBugs, Checkstyle, PMD)
+
 ## Requirements
 - Java 17
 - Maven
